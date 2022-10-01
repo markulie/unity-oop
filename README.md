@@ -1,4 +1,4 @@
-# OOPinUnity
+# OOP in Unity
 
 Object-oriented programming concepts:
 
