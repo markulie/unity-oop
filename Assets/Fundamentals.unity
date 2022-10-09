@@ -147,7 +147,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 232524562}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 71e26f43538ae044d9d229754cbb3565, type: 3}
+  m_Script: {fileID: 11500000, guid: b7f489cd5529a144596d63f84e4a6145, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   stamina: 100
@@ -191,7 +191,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 423387871}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 98f2afdc689265f468a11dcb7cb4de6f, type: 3}
+  m_Script: {fileID: 11500000, guid: a243bd5d4a9008f4ba30b599f0f2955e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   go: {fileID: 232524562}

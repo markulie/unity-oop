@@ -12,8 +12,8 @@ public class Parrot : Animal // Derived Class / Inheritance
 
     public override void Move() // Polymorphism
     {
-        if (stamina > 50) Fly(); // Check Stamina before calling Fly() Method
-        else base.Move(); // Call Move() Method instead
+        if (stamina > 50) Fly(); // Checks Stamina before calling Fly() Method
+        else base.Move(); // Calls Move() Method instead
 
         stamina -= 10; // Reducing Stamina
         if (stamina < 1) stamina = 0; // Keeps Stamina 0
@@ -21,6 +21,6 @@ public class Parrot : Animal // Derived Class / Inheritance
 
     private void Update() // Unity's Event Function / Updates Every Frame
     {
-        if (stamina < 100) stamina += Time.deltaTime * 10f; // Add Stamina over time
+        if (stamina < 100) stamina += Time.deltaTime * 10f; // Adds Stamina over time
     }
 }
